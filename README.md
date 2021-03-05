@@ -1,6 +1,6 @@
 # project name: queendom-pizza
 
-## project description: This project is all about ordering pizza on your comfort zone,you can order the size you want for example medium,large,small etc.
+## project description: This project is all about ordering pizza on your comfort zone,you can order the size you want for example medium,large,small etc its therefore adviced to choose the topings you want for your pizza
 
 
 ### Author: Shamso Abdi Darwish
