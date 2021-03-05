@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>queendom pizza</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+
+</head>
+<body>
+
+  <!-- header -->
+
+  <header>
+    <div class="container-fluid">
+      <div class="text-center">
+        <h1 class="head-main">QUEENDOM PIZZA</h1>
+
+      </div>
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- menu -->
+  
+  <div class="container">
+    <div id="menu-all">
+      <h2>menu</h2>
+      <form id="form">
+        <div class="menu-item">
+          <h3>size:</h3>
+
+          <input class="size" type="radio" name="size" value="personal pizza"> personal -$6.00*
+          <br>
+          <input class="size" type="radio" name="size" value="medium pizza">meddium -$8.00*
+          <br>
+          <input class="size" type="radio" name="size" value="large pizza" checked>large - $10.00*
+
+          <br>
+          <p>base price before ingrediends</p>
+          
+        </div>
+        <div class="menu-item">
+          <h3>crust:</h3>
+
+          <input class="crust" type="radio" name="crust" value="plain crust"> plain
+          <br>
+          <input class="crust" type="radio" name="crust" value="spicy crust"> spicy
+          <br>
+          <input class="crust" type="radio" name="crust" value="garlic butter crust">garlic butter
+          <br>
+          <input class="crust" type="radio" name="crust" value="cheese stuffed crust">cheese stuffed
+          <br>
+          <p>add $4.00 for any size pizza</p>
+
+        </div>
+        <div class="menu-item">
+          <h3>sauce:</h3>
+          <input class="sauce" type="radio" name="sauce" value="white sauce" checked> white
+          <br>
+          <input class="sauce" type="radio" name="sauce" value="barbecue"> barbecue
+          <br>
+          <input class="sauce" type="radio" name="sauce" value="no sauce"> no sauce
+          
+        </div>
+        <div class="menu-item">
+          <h3>cheese:</h3>
+          <input class="cheese" type="radio" name="cheese" value="regular cheese" checked> regular
+          <br>
+          <input class="cheese" type="radio" name="cheese" value="extra cheese">extra cheese
+          <br>
+          <input class="cheese" type="radio" name="cheese" value="no cheese"> no cheese
+          <br>
+          <p>* = add $3.00 for any size pizza</p>
+
+        </div>
+        <div class="menu-item">
+          <h3>meat:</h3>
+
+          <input class="meat" type="checkbox" name="meat" value="sausage"> sausage
+          <br>
+          <input class="meat" type="checkbox" name="meat" value="pepperoni"> sausage
+          <br>
+          <input class="meat" type="checkbox" name="meat" value="ground beef"> ground beef
+          <br>
+          <input class="meat" type="checkbox" name="meat" value="chicken">
+          <p>* = add $1.00 for each <br>meat item after the first</p>
+          
+        </div>
+        <div class="menu-item">
+          <h3>veggies</h3>
+          <input class="veggies" type="checkbox" name="veggies" value="green peppers"> green peppers
+          <br>
+          <input class="veggies" type="checkbox" name="veggies" value="onions"> onions
+          <br>
+          <input class="veggies" type="checkbox" name="veggies" value="tomatoes"> tomatoes
+          <br>
+          <input class="veggies" type="checkbox" name="veggies" value="olives"> olives
+
+        </div>
+
+      </form>
+      <br>
+
+      <div class="controls">
+        <div class="button" onclick="getreceipt()">
+
+          <p>place order</p>
+          
+        </div>
+        <div class="button" onclick="clearAll()">
+          <p>cancel</p>
+          
+        </div>
+        
+      </div>
+
+      <div id="cart">
+        <div id="head1">
+          <h3>order items</h3>
+
+        </div>
+
+        <div id="head2">
+
+              <h3>item price</h3>
+
+        </div>
+
+<div id="showText1"></div>
+<div id="showText2"></div>
+<div id="total price">
+
+              <h3>Grand Total</h3>
+</div>
+<div id="totalPrice2"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- /menu body -->
+
+
+  <!-- footer -->
+
+  <footer>
+    www.queendom pizza.com &copy; 2021
+  </footer>
+  <!-- /footer -->
+
+
+  <!-- link javascript code -->
+  <script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+</html>
