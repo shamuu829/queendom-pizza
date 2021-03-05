@@ -22,7 +22,7 @@ h1 {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
-h1::after { /*this is the underline*/
+h1::after { /*THIS IS THE UNDERLINE*/
 
   display: block;
   content: "";
@@ -46,9 +46,7 @@ h1::after { /*this is the underline*/
 }
 
 
-/*=======================================
-  TITLE STYLES
-  =======================================*/
+/* TITLE STYLES */
   header {
     width: 100%;
     height: auto;
@@ -70,9 +68,7 @@ h1::after { /*this is the underline*/
       text-decoration: rgba(42, 76, 132, .9);
   }
   
-  /*=======================================
-    MENU STYLES
-    =======================================*/
+  /* MENU STYLES */
   
   #menu-all {
     width: 650px;
@@ -110,9 +106,7 @@ h1::after { /*this is the underline*/
     text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #000;
   }
   
-  /*=======================================
-    BUTTON STYLES
-    =======================================*/
+  /* BUTTON STYLES */
   
   .controls {
     display: flex;
@@ -156,9 +150,7 @@ h1::after { /*this is the underline*/
     box-shadow: 0 0 0 2px rgba(0,0,0,.3);
   }
   
-  /*=======================================
-    CART STYLES
-    =======================================*/
+  /* add changes on stylings */
   
   #cart {
     opacity: 0;
@@ -226,9 +218,7 @@ h1::after { /*this is the underline*/
     border-radius: 0 0 0 0;
   }
   
-  /*=======================================
-    FOOTER STYLES
-    =======================================*/
+  /* FOOTER STYLES */
   footer {
     margin-top: 1.5rem;
     right: 0;
