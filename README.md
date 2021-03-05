@@ -18,3 +18,9 @@
 .Email:saaradarwish@gmail.com
 
 .phone number: 0734456667
+
+.twiter: shamso Abdi
+
+.facebook:Shamso Abdi Darwish
+
+.django:shamuu
