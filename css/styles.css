@@ -151,6 +151,7 @@ h1::after { /*THIS IS THE UNDERLINE*/
   }
   
   /* CART STYLES */
+  /* add changes on stylings */
   
   #cart {
     opacity: 0;
@@ -218,9 +219,7 @@ h1::after { /*THIS IS THE UNDERLINE*/
     border-radius: 0 0 0 0;
   }
   
-  /*=======================================
-    FOOTER STYLES
-    =======================================*/
+  /* FOOTER STYLES */
   footer {
     margin-top: 1.5rem;
     right: 0;
