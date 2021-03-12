@@ -1,29 +1,32 @@
-function getReceipt() {
+function getreceipt() {
 	text1 = "";
 	text2 = "";
 	var runningTotal = 0;
 	var sizeTotal = 0;
 	var sizeArray = document.getElementsByClassName("size");
+
 	for (var i = 0; i < sizeArray.length; i++) {
 		if (sizeArray[i].checked) {
 			var selectedSize = sizeArray[i].value;
 			text1 = text1+selectedSize+"<br>";
 		}
-	}
-	if (selectedSize === "Personal Pizza") {
+
+	if (selectedSize === "personal pizza") {
 		sizeTotal = 6;
 		text2 = text2+sizeTotal+"<br>";
-	} else if (selectedSize === "Medium Pizza") {
+	} else if (selectedSize === "medium pizza") {
 		sizeTotal = 10;
 		text2 = text2+sizeTotal+"<br>";
-	} else if (selectedSize === "Large Pizza") {
+	} else if (selectedSize === "large pizza") {
 		sizeTotal = 14;
 		text2 = text2+sizeTotal+"<br>";
-	} else if (selectedSize === "Extra Large Pizza") {
+	} else if (selectedSize === "extra large pizza") {
 		sizeTotal = 16;
 		text2 = text2+sizeTotal+"<br>";
 	}
+}
 	runningTotal = sizeTotal;
+
 	getCrust(runningTotal,text1,text2);
 };
 
@@ -36,7 +39,7 @@ function getCrust(runningTotal,text1,text2) {
 			selectedCrust = crustArray[j].value;
 			text1 = text1 + selectedCrust + "<br>";
 		}
-		if (selectedCrust === "Cheese Stuffed Crust") {
+		if (selectedCrust === "cheese stuffed crust") {
 			crustTotal = 3;
 		}
 	}
@@ -67,7 +70,7 @@ function getCheese(runningTotal,text1,text2) {
 			selectedCheese = cheeseArray[j].value;
 			text1 = text1 + selectedCheese + "<br>";
 		}
-		if (selectedCheese === "Extra Cheese") {
+		if (selectedCheese === "extra cheese") {
 			cheeseTotal = 3;
 		}
 	}
